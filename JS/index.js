@@ -2,8 +2,25 @@ $(".logo-container").on("click", function () {
   alert("Angga Ferdiansyah");
 });
 $(".submit").on("click", function () {
-  alert("Success");
+  $(".submit").toggleClass("d-none");
 });
+const scriptURL = 'https://script.google.com/macros/s/AKfycbwZfODLkgVxsw0tPlyEKvcSbxMA634sPIFkHfYzYXmSv7Xc7yfbt6KxehM9cjEnL5JsdQ/exec'
+const form = document.forms['contact-form']
+    
+      form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+          .then(response => {
+            $(".submit").toggleClass("d-none");
+            $(".alert-success").toggleClass("d-none");
+            console.log('Success!', response)
+          })
+          .catch(error => {
+            $(".alert-danger").toggleClass("d-none");
+            console.error('Error!', error.message)
+          })
+      })
+
 const hamburger = document.querySelector(".hamburger");
 const navMenu = document.querySelector(".nav-menu");
 
