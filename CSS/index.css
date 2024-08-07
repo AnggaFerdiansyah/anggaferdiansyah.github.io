@@ -43,6 +43,7 @@ body {
 }
 .img {
   background: url("../IMG/Chiori.jpeg") no-repeat 0 0;
+  background: URL("../IMG/Chiori.jpeg") no-repeat 0 0;
   background-color: white;
   background-position: center;
   background-size: cover;
