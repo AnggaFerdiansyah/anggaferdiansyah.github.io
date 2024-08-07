@@ -423,6 +423,10 @@ hr {
   .contact {
     margin-bottom: 40px;
   }
+  .alert{
+    align-items: center;
+    width: 350px;
+  }
   .contact .form {
     width: 270px;
   }
@@ -490,6 +494,10 @@ hr {
   .contact .form {
     width: 380px;
   }
+  .alert{
+    align-items: center;
+    width: 470px;
+  }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -502,6 +510,10 @@ hr {
   }
   .project .primary{
     font-size: 1.5rem;
+  }
+  .alert{
+    align-items: center;
+    width: 100%;
   }
 }
 
