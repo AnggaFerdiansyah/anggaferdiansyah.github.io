@@ -26,11 +26,9 @@ body {
   font-weight: 500;
 }
 .logo-container:hover {
-  color: #920049;
+  opacity: 0.6;
+  color: #000000;
   cursor: pointer;
-}
-.logo-container:hover .img {
-  opacity: 0.5;
 }
 .logo-img {
   background-color: #ffffff;
@@ -42,7 +40,7 @@ body {
   margin-right: 10px;
 }
 .img {
-  background: url("../IMG/Chiori.jpeg") no-repeat 0 0;
+  background: url("../IMG/Me.jpg") no-repeat 0 0;
   background-color: white;
   background-position: center;
   background-size: cover;
