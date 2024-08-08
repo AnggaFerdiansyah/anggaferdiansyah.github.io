@@ -95,7 +95,6 @@ li{
 }
 .logo-img {
   overflow: hidden;
-  background-color: #ffffff;
   background-position: center;
   background-size: cover;
   width: 50px;
@@ -105,7 +104,6 @@ li{
 }
 .img {
   background: url("../IMG/Me.jpg");
-  background-color: white;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
