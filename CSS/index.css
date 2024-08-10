@@ -343,13 +343,17 @@ input:focus {
 
 .social-icon ul {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: flex-start;
   margin: 0;
   padding: 0;
+  gap: 10px;
 }
 .social-icon ul li {
+  
   list-style: none;
+  overflow: hidden;
 }
 .social-icon ul li i{
   overflow: hidden;
@@ -454,9 +458,8 @@ hr {
   .footer-profile h3{
     text-align: center;
   }
-  .footer-profile{
-    text-align: justify;
-  }
+  
+ 
   .social-icon ul{
     justify-content: center;
     align-items: center;
